@@ -7,36 +7,9 @@
   
 <jsp:include page="/WEB-INF/views/common/header.jsp"/>
 
-<!-- 상세보기 css-->
+<!-- 마이페이지 css-->
     <link rel="stylesheet" type="text/css" href="${path}/resources/base/css/mypage.css">
-    
-    <style>
-    
-    .mypageAtag:visited
-    {
-    	color:black;
-    }
-    
-    .mypageAtag:hover
-    {
-    	color : pink;
-    }
-    
-    /*마이페이지*/
-.mypage
-{
-   padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url("http://papers.co/wallpaper/papers.co-sj42-purple-soft-red-gradation-blur-35-3840x2160-4k-wallpaper.jpg");
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}   
-    </style>
-    
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     
     
     
@@ -58,10 +31,10 @@
 						      <strong><a class="nav-link mypageAtag" href="${path }/mypage/myBoardList.do">게시글 관리</a></strong>
 						    </li>
 						    <li class="nav-item">
-						      <strong><a class="nav-link mypageAtag" href="#">장바구니</a></strong>
+						      <strong><a class="nav-link mypageAtag" href="${path }/mypage/myShoppingCart.do">장바구니</a></strong>
 						    </li>
 						    <li class="nav-item">
-						   		<strong><a class="nav-link mypageAtag" href="#">찜 목록</a></strong>
+						   		<strong><a class="nav-link mypageAtag" href="${path }/mypage/myWishList.do">찜 목록</a></strong>
 						    </li>
 						  </ul>
 						  <hr>
@@ -221,13 +194,20 @@
 		         
 		         <div class="form-group row">
 		      		 <div class="input-group col-12">
-					      <div class="input-group-prepend">
-					        <span class="input-group-text">별점 </span>
-					      </div>
-					      ★★★★☆
+						   별점 : 
+						 <div>   
+							<ul class="user_star_rating">
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+							</ul>
+						</div> 
 					  </div>
 		        </div>
-		        
+
+			         
 		        <!-- Modal footer -->
 		        <div class="modal-footer">
 		          <button type="button" class="btn btn-success">등록하기</button>
@@ -271,7 +251,7 @@
 		         </div>
 		         
 		         <div class="col-12"> 
-		        <label> ▼ 문의 유형을 골라주세요 ▼</label> 
+		        <label> 문의 유형 선택 : </label> 
 				      <select class="form-control" id="qna_option">
 				        <option>상품 문의 </option>
 				        <option>교환/환불</option>
@@ -301,6 +281,7 @@
 		  </div>
 		  <!-- 문의하기 모달 끝 -->
 		  
+		  </div>
 	
 </section>
 

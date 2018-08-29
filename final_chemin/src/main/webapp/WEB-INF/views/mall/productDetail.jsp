@@ -26,7 +26,6 @@
  -->
 
 
-
 <section>
 <div class="container single_product_container">
 		<div class="row">
@@ -113,7 +112,9 @@
 				          <td>1</td>
 				          <td>너무 맛있어요</td>
 				          <td>원숭이</td>
-				          <td>★★★★☆</td>
+				          <td>
+
+				          </td>
 				          <td>2018-08-24</td>
 				          <td><button type="button" class="btn btn-danger">삭제</button></td>	
 				        </tr>

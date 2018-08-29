@@ -20,7 +20,19 @@ public class MypageController
 		return "mypage/myBoardList";
 	}
 	
+	//장바구니로 이동
+	@RequestMapping("/mypage/myShoppingCart.do")
+	public String shoppingCart()
+	{
+		return "mypage/myShoppingCart";
+	}
 	
 	
+	//찜 목록으로 이동
+	@RequestMapping("/mypage/myWishList.do")
+	public String wishList()
+	{
+		return "mypage/myWishList";
+	}
 	
 }
