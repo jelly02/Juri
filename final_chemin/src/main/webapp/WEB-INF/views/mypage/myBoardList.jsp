@@ -169,6 +169,8 @@
 					</li>
 				</ul>
  	 	</div>
+ 	 	
+
 		   		 
 		  	</div>
 		  	
@@ -207,7 +209,7 @@
 		         </div>
 		         
 		         <div class="col-12"> 
-		        <label> ▼ 문의 유형을 골라주세요 ▼</label> 
+		        <label> 문의 유형 : </label> 
 				      <select class="form-control" id="qna_option">
 				        <option>상품 문의 </option>
 				        <option>교환/환불</option>
@@ -246,29 +248,13 @@
 		      
 		        <!-- Modal Header -->
 		        <div class="modal-header">
-		          <h4 class="modal-title text-center">게시글 수정</h4>
+		          <h4 class="modal-title text-center">리뷰 수정</h4>
 		          <button type="button" class="close" data-dismiss="modal">&times;</button>
 		        </div>
 		        
 		        <!-- Modal body -->
 		        <div class="modal-body">
-		        
-			         <div class="form-group row">
-			      		 <div class="input-group col-6">
-						      <div class="input-group-prepend">
-						        <span class="input-group-text">글 번호 </span>
-						      </div>
-						      <input type="text" class="form-control input-sm" placeholder="글 번호" name="board_number">
-						  </div>
-						  
-						  <div class="input-group col-6">
-						      <div class="input-group-prepend">
-						        <span class="input-group-text">카테고리</span>
-						      </div>
-						      <input type="text" class="form-control input-sm" placeholder="카테고리" name="category">
-						  </div>
-			         </div>
-			         
+		   
 			          <div class="form-group row">
 			      		 <div class="input-group col-12">
 						      <div class="input-group-prepend">

@@ -185,6 +185,19 @@
 	color: #fe4c50;
 }
 
+/*문의 사항 a태그*/
+.boardAtag:visited
+{
+  color:black;
+}
+    
+.boardAtag:hover
+{
+ 	color : pink;
+}
+
+
+
 /* 페이징 */
 /* .pagination
 {

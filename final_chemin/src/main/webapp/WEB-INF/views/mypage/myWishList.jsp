@@ -67,9 +67,8 @@
 				        <tr>
 				          <th>상품(사진)</th>
 				          <th>상품(이름)</th>
-				          <th>수량</th>
 				          <th>금액</th>
-				          <th></th>
+				         <th></th>
 				        </tr>
 				      </thead>
 				      
@@ -77,16 +76,8 @@
 				        <tr>
 				        	<td></td>
 				        	<td>바나나</td>
-				        	<td>
-				        		<div class="quantity d-flex flex-column flex-sm-row align-items-sm-center">
-									<div class="quantity_selector">
-										<span class="minus"><i class="fa fa-minus" aria-hidden="true"></i></span>
-											<span id="quantity_value">1</span>
-										<span class="plus"><i class="fa fa-plus" aria-hidden="true"></i></span>
-									</div>
-								</div>
-				        	</td>
-				        	<td>80,000원</td>
+				        	<td>8,000원</td>
+				        	
 				        	<td>
 				        		<button type="button" class="btn btn-sm btn-success">장바구니에 추가</button>
 				        		<button type="button" class="btn btn-sm btn-danger"  onclick="fn_delete();">삭제</button>
